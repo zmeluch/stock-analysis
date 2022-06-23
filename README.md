@@ -2,17 +2,25 @@
 
 ## Overview of Project
 	
-	Steve, a new graduate in finance has a collection of stock data, in an excel workbook, he needs help in analyzing.Steve was interested in gathering data to analyze on green stocks for his parents, his first customers. But the worksheets contain data on all different stocks.To help with this a VBA script was written.
+	Steve, a new graduate in finance has a collection of stock data, in an excel workbook, 
+	he needs help in analyzing.Steve was interested in gathering data to analyze on green stocks for his parents, his first customers. 
+	But the worksheets contain data on all different stocks.To help with this a VBA script was written.
 
 ### Purpose
 	
-	The VBA script helps to quickly automate the sifting and collection of these green stocks data from excel sheet. By searching through the data for specific green stocks and pulling the data for those specific stocks and outputting them into a easy to read formatted sheet. Steve can quickly see what green stocks are doing well or poorly and report that to his parents. After the intial VBA script was written, the code was then refactored.
+	The VBA script helps to quickly automate the sifting and collection of these green stocks data from excel sheet. 
+	By searching through the data for specific green stocks and pulling the data for those specific stocks and outputting them 
+	into a easy to read formatted sheet. Steve can quickly see what green stocks are doing well or poorly and report that to his parents. 
+	After the intial VBA script was written, the code was then refactored.
 
 ## Results
 	
-	In 2017, the green stocks, Steve is analyzing did very well. Only one stock had a negative return. In 2018 however, that was not the case only two stocks had postive returns. Those two stocks though did exceedingly well with over 80% returns. 
+	In 2017, the green stocks, Steve is analyzing did very well. Only one stock had a negative return. In 2018 however, 
+	that was not the case only two stocks had postive returns. Those two stocks though did exceedingly well with over 80% returns. 
 
-	The refactored code, was able to cut the run time on both years' analysis. By adding an index and arrays, we are able to loop through both sheets of data once instead of swtich between the two different years' sheets. This makes the code more efficent and makes it run quicker. As well as makes it easier to understand and work with in the future.
+	The refactored code, was able to cut the run time on both years' analysis. By adding an index and arrays, 
+	we are able to loop through both sheets of data once instead of swtich between the two different years' sheets. 
+	This makes the code more efficent and makes it run quicker. As well as makes it easier to understand and work with in the future.
 
 ### Stock Analysis for 2017
 ![2017_Green_Stocks](https://user-images.githubusercontent.com/103155045/175184802-0329ccfb-00be-4792-8c0e-1041ec058a11.png)
@@ -235,5 +243,9 @@ End Sub
 
 ## Summary
 	
-	The advantages of refactoring the code are that the code runs faster. The code also becomes cleaner, easier to read and understand. Making it to work on in the future for oneself and others
-	In this VBA script the code runs quicker for both data from 2017 and 2018. Also by eliminating Nested loops inside the code becomes easier to read and understand. And eliminates multiply variable which increases the chances of an error.
+	The advantages of refactoring the code are that the code runs faster. The code also becomes cleaner, 
+	easier to read and understand. Making it to work on in the future for oneself and others
+	
+	In this VBA script the code runs quicker for both data from 2017 and 2018. 
+	Also by eliminating Nested loops inside the code becomes easier to read and understand. 
+	And eliminates multiply variable which increases the chances of an error.
